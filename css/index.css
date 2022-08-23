@@ -1,0 +1,17 @@
+@font-face {
+    font-family: WRESTLEMANIA;
+    src: url("/fonts/WRESTLEMANIA.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MileStone;
+    src: url("/fonts/MilestoneFreeVersion-Script.otf") format("opentype");
+}
+
+#comp{
+    font-family: MileStone;
+}
+
+#propos{
+    font-family: MileStone;
+}
