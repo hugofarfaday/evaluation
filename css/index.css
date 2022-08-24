@@ -30,9 +30,6 @@
     #page1{
     height: 720px;
     }
-    #dev{
-        visibility: hidden;
-    }
 }
 
 #titre{
@@ -49,3 +46,8 @@
     filter: blur(2px);
 }
 
+@media (max-width: 844px){
+    #dev{
+        visibility: hidden;
+    }
+}
