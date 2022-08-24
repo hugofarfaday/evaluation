@@ -23,12 +23,15 @@
     font-size: xx-large;
 }
 .width-100{
-    width: 100%;
+    width: 90%;
 }
 
 @media (min-width: 844px) {
     #page1{
     height: 720px;
+    }
+    #dev{
+        visibility: hidden;
     }
 }
 
@@ -41,3 +44,8 @@
     font-family: MileStone;
     font-size: x-large;
 }
+
+#page1{
+    filter: blur(2px);
+}
+
