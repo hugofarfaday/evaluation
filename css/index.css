@@ -25,3 +25,19 @@
 .width-100{
     width: 100%;
 }
+
+@media (min-width: 844px) {
+    #page1{
+    height: 720px;
+    }
+}
+
+#titre{
+    font-family: WRESTLEMANIA;
+    font-size: 50px;
+}
+
+#texte{
+    font-family: MileStone;
+    font-size: x-large;
+}
