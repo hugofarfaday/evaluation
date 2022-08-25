@@ -26,9 +26,12 @@
     width: 90%;
 }
 
-@media (min-width: 844px) {
+@media (min-height: 844px) {
     #page1{
-    height: 895px;
+    height: 100vh;
+    }
+    #cmpt{
+        top: 155px;
     }
 }
 

@@ -32,9 +32,28 @@
           </div>
         </nav>   
     </header>
-    <div id="particles">
-     
+    <div class="bg-image" id="bg" style="background-image: url('image/space.jpg');">
+      <div>
+        <div class="contact-form-wrapper d-flex justify-content-center">
+          <form action="#" class="contact-form">
+            <h5 class="title" id="titre">Contactez moi !</h5>
+            <p class="description" id="texte">Contactez moi pour avoir plus d'info sur ce que je peut faire !</p>
+            <div>
+              <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Nom Complet" required>
+            </div>
+            <div>
+              <input type="email" class="form-control rounded border-white mb-3 form-input" placeholder="Email" required>
+            </div>
+            <div>
+              <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Contenu du Message..." required></textarea>
+            </div>
+            <div class="submit-button-wrapper">
+              <input type="submit" value="Envoyer">
+            </div>
+          </form>
+        </div>
       </div>
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
      <script src="js/contact.js"></script>
