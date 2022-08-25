@@ -134,7 +134,7 @@ canvas{
     background-color: #1808a7;
   }
 
-  @media (max-height: 1920px) {
+  @media screen and (min-height: 800px) {
     #bg{
         height: 100em;
     }
