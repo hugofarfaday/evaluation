@@ -46,8 +46,13 @@
     filter: blur(2px);
 }
 
-@media (max-width: 844px){
+/* @media (max-width: 844px){
     #dev{
-        visibility: hidden;
+        overflow: hidden;
     }
+} */
+
+#icon{
+     position: relative;
+     left: 130px;
 }
