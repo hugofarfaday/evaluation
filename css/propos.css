@@ -1,0 +1,37 @@
+@font-face {
+    font-family: WRESTLEMANIA;
+    src: url("/fonts/WRESTLEMANIA.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MileStone;
+    src: url("/fonts/MilestoneFreeVersion-Script.otf") format("opentype");
+}
+
+#comp{
+    font-family: MileStone;
+    font-size: large;
+}
+
+#propos{
+    font-family: MileStone;
+    font-size: large;
+}
+
+#title{
+    font-family: WRESTLEMANIA;
+    font-size: xx-large;
+}
+.width-100{
+    width: 90%;
+}
+
+#titre{
+    font-family: WRESTLEMANIA;
+    font-size: 50px;
+}
+
+#texte{
+    font-family: MileStone;
+    font-size: x-large;
+}
