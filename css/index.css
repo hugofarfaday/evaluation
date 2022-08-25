@@ -8,6 +8,12 @@
     src: url("/fonts/MilestoneFreeVersion-Script.otf") format("opentype");
 }
 
+
+
+#rin{
+    
+}
+
 #comp{
     font-family: MileStone;
     font-size: large;
@@ -46,13 +52,13 @@
     filter: blur(2px);
 }
 
-/* @media (max-width: 844px){
-    #dev{
-        overflow: hidden;
-    }
-} */
-
 #icon{
      position: relative;
      left: 130px;
+}
+
+.caption{
+    position:absolute;
+    top:8rem;
+    color: white;
 }
