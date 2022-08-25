@@ -26,12 +26,9 @@
     width: 90%;
 }
 
-@media (min-height: 844px) {
+@media screen and (min-width: 800px) {
     #page1{
-    height: 100vh;
-    }
-    #cmpt{
-        top: 155px;
+        height: 1100px;
     }
 }
 
@@ -59,3 +56,9 @@
     top:8rem;
     color: white;
 }
+
+/* @media screen and (max-width: px) {
+    #page1{
+        height: 100vh;
+    }
+} */
