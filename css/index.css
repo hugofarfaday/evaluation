@@ -48,13 +48,13 @@
 
 #icon{
      position: relative;
-     left: 130px;
+     left: 165px;
 }
 
-.caption{
-    position:absolute;
-    top:8rem;
+#caption{
+    position: absolute;
     color: white;
+    top: 10rem;
 }
 
 /* @media screen and (max-width: px) {
@@ -62,3 +62,32 @@
         height: 100vh;
     }
 } */
+
+@media screen and (max-width: 450px) {
+    #bg{
+        width: 100%;
+        height: 130vh;
+    }
+  }
+
+  #tex{
+    font-family: MileStone;
+    font-size: x-large;
+    color: white;
+}
+
+#tit{
+    font-family: WRESTLEMANIA;
+    font-size: 50px;
+    color: white;
+}
+
+#titre1{
+    font-family: WRESTLEMANIA;
+    font-size: x-large;
+}
+
+#texte1{
+    font-family: MileStone;
+    font-size: medium;
+}
