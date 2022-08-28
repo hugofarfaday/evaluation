@@ -42,11 +42,9 @@
     }
 }
 
-/* @media screen and (max-width: 950px) {
-    .pi{
-        visibility: hidden;
-    }
-} */
+#ligne{
+    color: white;
+}
 
 #bg1{
     background-position: 100%;
