@@ -37,12 +37,18 @@
 }
 
 @media screen and (min-height: 800px) {
-    #bg{
+    #bg1{
         height: 100em;
     }
-  }
+}
 
-  #bg{
+/* @media screen and (max-width: 950px) {
+    .pi{
+        visibility: hidden;
+    }
+} */
+
+#bg1{
     background-position: 100%;
 }
 
