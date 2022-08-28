@@ -35,3 +35,29 @@
     font-family: MileStone;
     font-size: x-large;
 }
+
+@media screen and (min-height: 800px) {
+    #bg{
+        height: 100em;
+    }
+  }
+
+  #bg{
+    background-position: 100%;
+}
+
+#title{
+    font-family: WRESTLEMANIA;
+    font-size: 60px;
+    color: white;
+}
+
+#text{
+    font-family: MileStone;
+    font-size: 29px;
+    color: white;
+}
+
+#forma{
+    color: white;
+}
